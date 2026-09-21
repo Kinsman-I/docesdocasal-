@@ -1,0 +1,35 @@
+# Doces do Casal
+
+# Credenciais/configuração de produção
+/app/config.php
+.env
+.env.*
+
+# Logs
+error_log
+**/error_log
+*.log
+
+# Backups e banco de dados
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.sql
+
+# Uploads dos usuários/produtos
+/uploads/*
+!/uploads/.gitkeep
+
+# Arquivos temporários
+*.tmp
+*.temp
+*.bak
+*~
+
+# Sistema/IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
