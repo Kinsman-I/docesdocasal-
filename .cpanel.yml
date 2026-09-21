@@ -1,0 +1,21 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home4/israe196/brownie.kinsmanst.com/
+    - /bin/cp -R admin "$DEPLOYPATH"
+    - /bin/cp -R assets "$DEPLOYPATH"
+    - /bin/cp -R auth "$DEPLOYPATH"
+    - /bin/cp -R cliente "$DEPLOYPATH"
+    - /bin/cp -R includes "$DEPLOYPATH"
+    - /bin/cp -R sql "$DEPLOYPATH"
+    - /bin/cp .htaccess "$DEPLOYPATH"
+    - /bin/cp encomendas.php "$DEPLOYPATH"
+    - /bin/cp index.php "$DEPLOYPATH"
+    - /bin/cp lgpd.php "$DEPLOYPATH"
+    - /bin/cp politica-de-cookies.php "$DEPLOYPATH"
+    - /bin/cp politica-de-privacidade.php "$DEPLOYPATH"
+    - /bin/cp rastreio.php "$DEPLOYPATH"
+    - /bin/cp termos-de-uso.php "$DEPLOYPATH"
+    - /bin/mkdir -p "${DEPLOYPATH}app"
+    - /bin/cp app/.htaccess "${DEPLOYPATH}app/"
+    - /bin/cp app/config.example.php "${DEPLOYPATH}app/"
