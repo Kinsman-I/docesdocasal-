@@ -1,0 +1,15 @@
+DOCES DO CASAL - ESTRUTURA DE PUBLICACAO
+
+Repositorio cPanel:
+/home4/israe196/repositories-doce/docesdocasal
+
+Pasta publicada:
+/home4/israe196/repositories-doce/docesdocasal/docesdocasal.kinsmanst.com/public_html
+
+Dominio a apontar no cPanel:
+docesdocasal.kinsmanst.com -> /repositories-doce/docesdocasal/docesdocasal.kinsmanst.com/public_html
+
+O deploy preserva app/config.php e copia o config de producao antigo apenas se ainda nao existir no novo destino.
+A pasta uploads tambem e migrada da instalacao antiga.
+
+Depois de confirmar o novo site, brownie.kinsmanst.com pode continuar apenas como redirecionamento para o dominio oficial.
