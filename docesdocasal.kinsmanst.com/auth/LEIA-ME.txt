@@ -1,9 +1,0 @@
-DOCES DO CASAL - OLHINHO DE SENHA
-
-Substitua os 3 arquivos mantendo as pastas:
-- /auth/login.php
-- /auth/register.php
-- /auth/reset.php
-
-O botão agora usa ícones vetoriais de olho aberto/fechado, sem emoji, e funciona no celular e desktop.
-Não altera banco, sessões, regras de senha ou autenticação.
