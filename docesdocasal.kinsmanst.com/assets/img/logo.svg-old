@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 80">
-<rect width="280" height="80" rx="18" fill="#fffaf6"/>
-<circle cx="40" cy="40" r="28" fill="#4b2418"/>
-<path d="M40 55S23 45 23 33c0-8 10-12 17-5 7-7 17-3 17 5 0 12-17 22-17 22Z" fill="#fff"/>
-<text x="80" y="36" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="700" fill="#32170f">BROWNIE DO CASAL</text>
-<text x="80" y="57" font-family="Arial,Helvetica,sans-serif" font-size="13" fill="#7d6258">Especialistas em brownie</text>
-</svg>
